@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <title>Соц опитування</title>
+    </head>
+    <body>
+        <h1>Соціальне опитування</h1>
+        <hr/>
+        <br/>
+        <p>
+            <b>Дякуємо що берете участь у нашому опитуванні!</b>
+        </p>
+        <form method="POST" action="https://formspree.io/spirnyak2010@gmail.com">
+            <p>
+                <i>
+                    <b>1.</b>
+                    Оберіть стать
+                </i>
+            </p>
+            <label>
+                <select>
+                    <option value="Male">Чоловіча</option>
+                    <option value="Female">Жіноча</option>
+                </select>
+            </label>
+            <hr/>
+            <br/>
+            <p>
+                <i>
+                    <b>2.</b>
+                    Оберіть свій вік
+                </i>
+            </p>
+            <label>
+                <select>
+                    <option value="under-18">до 18</option>
+                    <option value="18-28">18-28</option>
+                    <option value="28-36">28-36</option>
+                    <option value="36-50">36-50</option>
+                    <option value="50-plus">50+</option>
+                </select>
+            </label>
+            <hr/>
+            <br/>
+            <p>
+                <i>
+                    <b>3.</b>
+                    Які жанри фільму Вам подобаються?
+                </i>
+            </p>
+            <label>
+                Бойовики:  
+         <input type="checkbox" name="war">
+            </label>
+            <label>
+                Детективи:  
+         <input type="checkbox" name="detective">
+            </label>
+            <label>
+                Кримінал:  
+         <input type="checkbox" name="criminal">
+            </label>
+            <label>
+                Вестерн:  
+         <input type="checkbox" name="western">
+            </label>
+            <label>
+                Документальні:  
+         <input type="checkbox" name="documental">
+            </label>
+            <label>
+                Комедії:  
+         <input type="checkbox" name="comedies">
+            </label>
+            <label>
+                Драми:  
+         <input type="checkbox" name="dramas">
+            </label>
+            <label>
+                Мультсеріали:  
+         <input type="checkbox" name="cartoons">
+            </label>
+            <label>
+                Інші:  
+         <input type="checkbox" name="others">
+            </label>
+            <hr/>
+            <br/>
+            <p>
+                <i>
+                    <b>4.</b>
+                    Якого року фільми Вам подобаються?
+                </i>
+            </p>
+            <label>
+                <select>
+                    <option value="new">Нові</option>
+                    <option value="old">Старі</option>
+                    <option value="no-matter">Не має значення</option>
+                </select>
+            </label>
+            <hr/>
+            <br/>
+            <p>
+                <i>
+                    <b>5.</b>
+                    Скільки в середньому фільмів на тиждень Ви переглядаєте?
+                </i>
+            </p>
+            <label>
+                <select>
+                    <option value="under-3">до 3</option>
+                    <option value="3-5">3-5</option>
+                    <option value="5-7">5-7</option>
+                    <option value="7-plus">7+</option>
+                </select>
+            </label>
+            <hr/>
+            <br/>
+            <p>
+                <i>
+                    <b>6.</b>
+                    Чи порекомендували б Ви наш сайт своїм друзям, родичам??
+                </i>
+            </p>
+            <label>
+                <select>
+                    <option value="yes">Так</option>
+                    <option value="no">Ні</option>
+                </select>
+            </label>
+            <hr/>
+            <br/>
+            <p>
+                <i>
+                    <b>7.</b>
+                    Ваша думка дуже важлива для нас! Можливо, Ви зможете допомогти покращити наш сайт
+                </i>
+            </p>
+            <label>
+                <textarea name="comment" placeholder="Ваш коментар(Максимум 200 символів)" rows="10" cols="90" maxlength="200" required></textarea>
+            </label>
+            <hr/>
+            <br/>
+            <label>
+                Ваш e-mail:
+          <input type="email" name="client-email" required>
+            </label>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>
